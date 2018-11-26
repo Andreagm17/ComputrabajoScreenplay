@@ -9,7 +9,7 @@ public class ConnectionFailed extends AssertionError{
 	private static final String CONNECTION_ERROR = "Connection error to the page";
 	
 	public static String getConnectionFailed() {
-		return CONNECTION_ERROR;
+		return CONNECTION_ERROR; 
 	}
 	
 	public ConnectionFailed(String message, Throwable cause) {
